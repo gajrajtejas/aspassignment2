@@ -1,0 +1,86 @@
+@model IEnumerable<MovieInfoApp.Models.MovieModel> // Defining model
+
+<h1>TOP 10 MOVIES TO BUY</h1> 
+
+<!-- Carousel start -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- Carousel indicators start -->
+    <ol class="carousel-indicators">
+        @for (var i = 0; i < Model.Count(); i++) // Loop through model data
+        {
+            <li data-target="#carouselExampleIndicators" data-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+            // Active carousel indicator
+        }
+    </ol>
+    <!-- Carousel inner start -->
+    <div class="carousel-inner">
+        @for (var i = 0; i < Model.Count(); i++) // Loop through model data
+        {
+            var movie = Model.ElementAt(i); // Current movie
+            <!-- Carousel item start -->
+            <div class="carousel-item @(i == 0 ? "active" : "")">
+                <img class="d-block w-100" src="@movie.ImageUrl" alt="@movie.Name"> 
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>@movie.Name</h5> 
+                    <p>@movie.Description</p> 
+                </div>
+            </div>
+            <!-- Carousel item end -->
+        }
+    </div>
+    <!-- Carousel control prev -->
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <!-- Carousel control next -->
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- Carousel end -->
+
+<br>
+
+<!-- Game list start -->
+<div>
+    <h1>Movie List</h1> 
+    <!-- Table start -->
+    <table class="table">
+        <!-- Table header start -->
+        <thead>
+            <tr>
+                <th>Top</th>
+                <th>Name</th>
+                <th>Genre</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Price</th>
+
+               
+
+            </tr>
+        </thead>
+        <!-- Table header end -->
+        <!-- Table body start -->
+        <tbody>
+            @foreach (var movie in Model) // Loop through model data
+            {
+                <tr>
+                    <td>@movie.Id</td>
+                    <td>@movie.Name</td>
+                    <td>@movie.Genre</td>
+                    <td>@movie.Description</td>
+                    <td><img src="@movie.ImageUrl" alt="@movie.Name" width="200"></td> 
+                    <td>@movie.price</td>
+                  
+                    
+                </tr>
+            }
+        </tbody>
+        <!-- Table body end -->
+    </table>
+    <!-- Table end -->
+</div>
+<!-- Game list end -->

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "The Shawshank Redemption",
+    "genre": "Drama",
+    "imageUrl": "https://image.tmdb.org/t/p/original/36ewyr1LdwwedDQhrlmhsi1nlnc.jpg",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "price": "$9.99"
+  },
+  {
+    "id": 2,
+    "name": "The Godfather",
+    "genre": "Crime",
+    "imageUrl": "https://th.bing.com/th/id/OIP.x--iuBVJnCoVnLpOJiVPKQHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "price": "$8.99"
+  },
+  {
+    "id": 3,
+    "name": "Pulp Fiction",
+    "genre": "Crime",
+    "imageUrl": "https://images8.alphacoders.com/499/thumb-1920-499674.jpg",
+    "description": "Various interconnected stories explore crime, redemption, and the absurdity of life through the lives of two mob hitmen, a boxer, and other characters.",
+    "price": "$7.99"
+  },
+  {
+    "id": 4,
+    "name": "The Dark Knight",
+    "genre": "Action",
+    "imageUrl": "https://th.bing.com/th/id/OIP.yfBaChdkFemGi-NW6bJ-iwHaEo?w=305&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+    "price": "$10.99"
+  },
+  {
+    "id": 5,
+    "name": "Inception",
+    "genre": "Science Fiction",
+    "imageUrl": "https://th.bing.com/th/id/R.69344c61a4a6d287887154402b6ec44c?rik=NSh%2fkMDTJYJN9Q&riu=http%3a%2f%2fimages2.fanpop.com%2fimage%2fphotos%2f14300000%2fInception-inception-2010-14355479-1680-1050.jpg&ehk=d15hpS8Rply6BEkzuLI%2fbahZQFk5IL8MKCn8JQSGv5I%3d&risl=&pid=ImgRaw&r=0",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+    "price": "$12.99"
+  },
+  {
+    "id": 6,
+    "name": "Forrest Gump",
+    "genre": "Drama",
+    "imageUrl": "https://th.bing.com/th/id/R.2df11803b12b750e504ff3472a4366ef?rik=ljLKoMKdZRQqgw&riu=http%3a%2f%2fyuvarevolution.org%2fwp-content%2fuploads%2f2014%2f09%2fForrest-Gump.jpg&ehk=gMywug4fAw4wuYtESD1BVtjvTqAO99R1zuZTKwitFq4%3d&risl=&pid=ImgRaw&r=0",
+    "description": "The life story of a man with low intelligence, who has unwittingly been present during many historic moments, but his true love eludes him.",
+    "price": "$6.99"
+  },
+  {
+    "id": 7,
+    "name": "The Matrix",
+    "genre": "Science Fiction",
+    "imageUrl": "https://www.themoviedb.org/t/p/original/oMCUPlwnk2z3QDnzXBxYY6hJogQ.jpg",
+    "description": "A computer programmer discovers a mysterious hidden world and joins a group of rebels fighting against a powerful and oppressive force.",
+    "price": "$11.99"
+  },
+  {
+    "id": 8,
+    "name": "Fight Club",
+    "genre": "Drama",
+    "imageUrl": "https://th.bing.com/th/id/R.8ead8003b6a0f8f447f89bdc244d187c?rik=qmnAC0HzROrsug&riu=http%3a%2f%2f1.bp.blogspot.com%2f-LPKVAsueChg%2fTxGXcfGHD_I%2fAAAAAAAAADM%2fox0bVOc7aro%2fs1600%2ffight1.jpg&ehk=UFRJSREWSZqvrju8tNlzfdS26%2bwm0PnopKdtvdGd0aw%3d&risl=&pid=ImgRaw&r=0",
+    "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+    "price": "$9.99"
+  },
+  {
+    "id": 9,
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "genre": "Fantasy",
+    "imageUrl": "https://th.bing.com/th/id/OIP.4rJ559bBgNV0PMQBbtQPIQHaEK?pid=ImgDet&rs=1",
+    "description": "A young hobbit, Frodo, embarks on a perilous journey to destroy a powerful ring and save Middle-earth from the Dark Lord Sauron.",
+    "price": "$14.99"
+  },
+  {
+    "id": 10,
+    "name": "Star Wars: Episode IV - A New Hope",
+    "genre": "Science Fiction",
+    "imageUrl": "https://th.bing.com/th/id/R.a4dbd35dc5979313a79db68ba24b0090?rik=GQEIxwC8Q8s4vA&pid=ImgRaw&r=0",
+    "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee, and two droids to save the galaxy from the Empire's world-destroying Death Star.",
+    "price": "$13.99"
+  }
+]
